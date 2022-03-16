@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "project", "project\project.csproj", "{41D6A2E3-3804-4C69-B5E1-629AD2E6D8EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{0B6D4423-43B1-4049-97E7-BB93FFFC7A9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Index_mass", "WindowsFormsApp1\Index_mass.csproj", "{0B6D4423-43B1-4049-97E7-BB93FFFC7A9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructor", "Constructor\Constructor.csproj", "{7B7D7AC3-0967-4C96-8E65-ABB156AD1443}"
 EndProject

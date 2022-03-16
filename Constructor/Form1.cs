@@ -24,7 +24,7 @@ namespace Constructor
 
         private void trackBar2_Scroll(object sender, EventArgs e)
         {
-            panel1.Height = trackBar1.Value + 100;
+            panel1.Height = trackBar2.Value + 100;
         }
 
         private void trackBar3_Scroll(object sender, EventArgs e)

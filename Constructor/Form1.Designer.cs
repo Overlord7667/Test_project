@@ -54,7 +54,7 @@ namespace Constructor
             // 
             // trackBar1
             // 
-            this.trackBar1.Location = new System.Drawing.Point(296, 239);
+            this.trackBar1.Location = new System.Drawing.Point(126, 240);
             this.trackBar1.Maximum = 150;
             this.trackBar1.Minimum = 1;
             this.trackBar1.Name = "trackBar1";
@@ -65,7 +65,7 @@ namespace Constructor
             // 
             // trackBar2
             // 
-            this.trackBar2.Location = new System.Drawing.Point(296, 300);
+            this.trackBar2.Location = new System.Drawing.Point(126, 319);
             this.trackBar2.Maximum = 150;
             this.trackBar2.Minimum = 1;
             this.trackBar2.Name = "trackBar2";
@@ -77,7 +77,7 @@ namespace Constructor
             // Ширина
             // 
             this.Ширина.AutoSize = true;
-            this.Ширина.Location = new System.Drawing.Point(236, 240);
+            this.Ширина.Location = new System.Drawing.Point(135, 224);
             this.Ширина.Name = "Ширина";
             this.Ширина.Size = new System.Drawing.Size(46, 13);
             this.Ширина.TabIndex = 3;
@@ -86,7 +86,7 @@ namespace Constructor
             // Высота
             // 
             this.Высота.AutoSize = true;
-            this.Высота.Location = new System.Drawing.Point(239, 301);
+            this.Высота.Location = new System.Drawing.Point(136, 303);
             this.Высота.Name = "Высота";
             this.Высота.Size = new System.Drawing.Size(45, 13);
             this.Высота.TabIndex = 4;

@@ -40,9 +40,9 @@ namespace ticktack
             this.button9 = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.играToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.новаяИграToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оСоздателеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.донатыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -50,6 +50,7 @@ namespace ticktack
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(62, 61);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 73);
@@ -59,6 +60,7 @@ namespace ticktack
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(143, 61);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 73);
@@ -68,6 +70,7 @@ namespace ticktack
             // 
             // button3
             // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.Location = new System.Drawing.Point(224, 61);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 73);
@@ -77,6 +80,7 @@ namespace ticktack
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.Location = new System.Drawing.Point(62, 140);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 73);
@@ -86,6 +90,7 @@ namespace ticktack
             // 
             // button5
             // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button5.Location = new System.Drawing.Point(143, 140);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 73);
@@ -95,6 +100,7 @@ namespace ticktack
             // 
             // button6
             // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button6.Location = new System.Drawing.Point(224, 140);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 73);
@@ -104,6 +110,7 @@ namespace ticktack
             // 
             // button7
             // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button7.Location = new System.Drawing.Point(62, 219);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 73);
@@ -113,6 +120,7 @@ namespace ticktack
             // 
             // button8
             // 
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button8.Location = new System.Drawing.Point(143, 219);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 73);
@@ -122,6 +130,7 @@ namespace ticktack
             // 
             // button9
             // 
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button9.Location = new System.Drawing.Point(224, 219);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(75, 73);
@@ -149,6 +158,20 @@ namespace ticktack
             this.играToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.играToolStripMenuItem.Text = "Игра";
             // 
+            // новаяИграToolStripMenuItem
+            // 
+            this.новаяИграToolStripMenuItem.Name = "новаяИграToolStripMenuItem";
+            this.новаяИграToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.новаяИграToolStripMenuItem.Text = "Новая игра";
+            this.новаяИграToolStripMenuItem.Click += new System.EventHandler(this.новаяИграToolStripMenuItem_Click);
+            // 
+            // выходToolStripMenuItem
+            // 
+            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
+            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.выходToolStripMenuItem.Text = "Выход";
+            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
+            // 
             // справкаToolStripMenuItem
             // 
             this.справкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -158,29 +181,19 @@ namespace ticktack
             this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.справкаToolStripMenuItem.Text = "Справка";
             // 
-            // выходToolStripMenuItem
-            // 
-            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
-            this.выходToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.выходToolStripMenuItem.Text = "Выход";
-            // 
-            // новаяИграToolStripMenuItem
-            // 
-            this.новаяИграToolStripMenuItem.Name = "новаяИграToolStripMenuItem";
-            this.новаяИграToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.новаяИграToolStripMenuItem.Text = "Новая игра";
-            // 
             // оСоздателеToolStripMenuItem
             // 
             this.оСоздателеToolStripMenuItem.Name = "оСоздателеToolStripMenuItem";
             this.оСоздателеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.оСоздателеToolStripMenuItem.Text = "О Создателе";
+            this.оСоздателеToolStripMenuItem.Text = "О Игре";
+            this.оСоздателеToolStripMenuItem.Click += new System.EventHandler(this.оСоздателеToolStripMenuItem_Click);
             // 
             // донатыToolStripMenuItem
             // 
             this.донатыToolStripMenuItem.Name = "донатыToolStripMenuItem";
             this.донатыToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.донатыToolStripMenuItem.Text = "Донаты";
+            this.донатыToolStripMenuItem.Click += new System.EventHandler(this.донатыToolStripMenuItem_Click);
             // 
             // Form1
             // 
